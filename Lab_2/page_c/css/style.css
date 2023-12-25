@@ -1,0 +1,222 @@
+*{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;}
+:root{
+    --color-1: rgba(125, 124, 124, 0.8);
+    --color-2:rgb(241, 194, 50);
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+/*css menu*/
+.menu_top {
+    background-color: rgba(30, 30, 30, 1);
+}
+.menu_top .nav-bar {
+    display: flex
+}
+.menu_top .nav-bar .logo {
+    flex-basis: 45%;
+}
+.menu_top .nav-bar .logo img {
+    width: 177px;
+    padding: 20px 0 ;
+}
+.menu_top .nav-bar .menu{
+    flex-basis: 55%;
+}
+.menu_top .nav-bar .menu ul{
+    list-style: none;
+    display: flex;
+    padding: 30px 0px;
+    float: right;
+}
+.menu_top .nav-bar .menu ul li a{
+    text-decoration: none;
+    color: var(--color-1);
+    padding: 0px 15px;
+    font-weight: 700;
+    font-size: 120%;
+}
+.menu_top .nav-bar .menu ul li span{
+    color: var(--color-2);
+    font-weight: 700;
+    font-size: 120%;
+}
+/*end css menu*/
+.banner {
+    background-image: url(/lt_web/Lab_2/page_c/images/video/video_bg.jpg);
+    background-size: cover;
+    height: 890px;
+    position: relative;
+}
+.banner::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(left, black 0%, #08080800 50%, #0000008f 100%);
+}
+.banner .layer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.banner .layer >h1 {
+    padding-bottom: 25px;
+    font-size: 40px;
+    color: white;
+  
+}
+.banner .layer >p{
+   padding: 25px 0;
+   color: white;
+   font-size: 20px;
+}
+.banner .layer .text_email_layer1{
+  background-color: rgb(14, 14, 14);
+  border-radius: 5px; 
+  display: flex;
+  width: 560px;
+  margin: auto;
+  
+}
+.banner .layer .text_email_layer1 #email{
+ height: 47px;
+ border-radius: 5px;
+ flex-basis: 70%;
+
+ margin: 10px;
+}
+.banner .layer .text_email_layer1 #sub{
+   
+    height: 47px;
+    border-radius: 5px;
+    background-color:var(--color-2) ;
+    flex-basis: 30%;
+    margin: 10px;
+}
+.content {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.content .content_trai{
+    flex-basis: 60%;
+    padding-top: 40px;
+}
+.content .content_trai .item{
+    display: flex;
+    padding-bottom: 60px;
+    
+}
+.content .content_trai .item .item_trai{
+    flex-basis: 40%;
+}
+.content .content_trai .item .item_Phai{
+    flex-basis: 50%;
+    padding-left: 10px;
+}
+
+.content .content_phai{
+    flex-basis: 40%;
+}
+.content .content_phai .join{
+    width: 420px;
+   
+    background-color: rgba(235, 234, 234, 1);
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.content .content_phai .join #text-join{ 
+    padding:50px 0px 25px 15px ;
+    font-size: 38px;
+    padding-bottom: 10px;
+    color: rgba(10, 10, 10, 0.8);
+}
+.content .content_phai .join #lorem{ 
+    padding:20px 0px 50px 15px ;
+    color: var(--color-1);
+    font-size: 20px;
+}
+.infor .field {
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+.infor .field input{
+    width: 375px;
+    height: 65px;
+    border: none;
+    font-size: 20px;
+    padding-left: 5px;
+    border-radius: 5px
+}
+.infor .field #country{
+    width: 375px;
+    height: 65px;
+    border: none;
+    font-size: 20px;
+    padding-left: 5px;
+    border-radius: 5px
+}
+.infor .field button{
+    width: 375px;
+    height: 65px;
+    background-color: rgba(124, 197, 118, 1);
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    padding-left: 5px;
+    border-radius: 5px
+}
+.footer-bar {
+    display: flex;
+    background-color: rgba(246, 246, 246, 1);
+    height: 100px;
+}
+footer {
+    background-color: rgba(246, 246, 246, 1);
+}
+.footer-bar .copy-right {
+   flex-basis: 50%;
+   font-size: 20px;
+   color: var(--color-1);
+   padding: 40px 0;
+}
+.footer-bar .text{
+    flex-basis: 50%;
+    display: flex;
+}
+.footer-bar .text .text_trai{
+   flex-basis: 80%;
+   text-align: right;
+   font-size: 20px;
+   color: var(--color-1);
+   padding: 40px 0;
+   margin-right: 10px
+}
+.footer-bar .text .text_phai{
+    flex-basis: 20%;
+    background-color: rgba(235, 234, 234, 1);
+    border-radius: 5px;
+   padding: 13px 0;
+   margin: 15px 0;
+   text-align: center;
+   
+}
+.footer-bar .text .text_phai a i{
+    flex-basis: 20%;
+    font-size: 20px;
+   color: var(--color-1);
+   margin-top: 15px;
+   padding-right: 10px;
+}
+

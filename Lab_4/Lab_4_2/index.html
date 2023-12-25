@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 750px;
+            height: 100vh;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            width: 200px;
+            padding: 14px 14px;
+            margin-top: 16px;
+            background-color: brown;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Giải phương trình bậc II</h1>
+        <p>Nhập các giá trị a, b và c:</p>
+
+        <input type="number" name="" id="a" class="">
+        <input type="number" name="" id="b" class="">
+        <input type="number" name="" id="c" class="">
+
+        <button onclick="solve()">Solve</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        
+        function solve() {
+            var a = parseFloat(document.getElementById("a").value);
+            var b = parseFloat(document.getElementById("b").value);
+            var c = parseFloat(document.getElementById("c").value);
+
+            var delta = b * b - 4 * a * c;
+            
+            var result;
+            if(delta < 0) {
+                result = "Phương trình vô nghiệm";
+            }
+            else if(delta == 0) {
+                var solution = -b / 2 * a;
+                result = "Phương trình có 1 nghiệm kép: " + solution;
+            }
+            else {
+                delta - Math.sqrt(delta, 2);
+                var solution1 = (-b + delta) / 2 * a;
+                var solution2 = (-b - delta) / 2 * a;
+
+                result = `Phương trình có 2 nghiệm:<br> x1 = ${solution1} <br> x2 = ${solution2}`;
+            }
+            document.getElementById("result").innerHTML = result;  
+        }
+    </script>
+</body>
+</html>

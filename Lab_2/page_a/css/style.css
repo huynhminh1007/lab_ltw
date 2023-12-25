@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .light_gray {
+    color: #aaa;
+  }
+  
+  .blue_text {
+    color: #00BFFF;
+  }
+  
+  .blue_bg {
+    background-color: #00BFFF;
+  }
+  
+  .bold_text {
+    font-weight: bold;
+  }
+  
+  .normal_text {
+    font-size: 16px;
+  }
+  
+  .big_text {
+    font-size: 18px;
+  }
+  
+  .big_title {
+    font-size: 32px;
+  }
+  
+  #page {
+    position: relative;
+  }
+  
+  #section_normal_1 .sixteen.columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .pix_builder_bg {
+    padding: 16px 0 ;
+  }
+  
+  .container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .two-thirds {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .htext_style {
+    color: #aaa;
+    margin-right: 16px;
+  }
+  
+  .social_button {
+    padding: 4px;
+  }
+  
+  #section_normal_4_2 {
+    background-color: #333;
+  }
+  
+  #section_normal_4_2 .sixteen.columns {
+    display: flex;
+    align-items: center;
+  }
+  
+  #section_normal_4_2 .columns .columns {
+    float: left;
+    width: 50%;
+  }
+  
+  #section_normal_4_2 .container::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  #section_normal_4_2 .alpha {
+    text-align: right;
+    padding-right: 12px;
+  }
+  
+  #section_normal_4_2 .omega {
+    padding-left: 12px;
+  }
+  
+  .big_padding {
+    padding: 48px 0;
+  }
+  
+  .stbox.alpha {
+    margin-right: 16px;
+  }
+  
+  .stbox.omega {
+    margin-left: 16px;
+  }
+  
+  .pix_button {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pix_button:hover {
+    opacity: 0.9;
+  }
+  
+  .btn_normal {
+    padding: 8px 16px;
+  }
+  
+  #section_normal_4_2 .big_title {
+    color: #fff;
+  }
+  
+  #section_normal_4_2 .pix_button {
+    margin-top: 16px;
+    display: inline-block;
+  }
+  
+  .editContent {
+    margin: 16px 0;
+  }
+  
+  #section_normal_6 {
+    background-color: #f2f2f2;
+  }
+  
+  .envato_unbounce {
+    padding: 32px 0;
+  }
+  
+  .L1_style {
+    text-align: center;
+    opacity: 0.55;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .L2_style {
+    text-align: center;
+    color: #aaa;
+    margin-top: 8px;
+  }
+  
+  #section_normal_6 .container::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .stbox {
+    margin-top: 48px;
+  }
+  
+  .stbox .pix_builder_bg {
+    float: left;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box_1 {
+    margin-right: 8px;
+  }
+  
+  .box_2 {
+    margin-left: 8px;
+  }
+  
+  .b_style {
+    padding: 16px 8px;
+    margin-right: 8px;
+    background-color: #F5F5F5;
+  }
+  
+  .txt_style {
+    color: #aaa;
+    line-height: 1.4;
+  }
+  
+  .env_st .pix_text {
+    color: #00BFFF;
+  }
+  
+  .logo_style {
+    border-radius: 50%;
+  }
+  
+  .center_text {
+    text-align: center;
+  }
+  
+  #section_agency_5 .f1_style {
+    color: #339900;
+    font-size: 18px;
+    padding: 24px 0;
+  }
+  #section_agency_5 .f2_style {
+    color: #aaa;
+    padding: 24px 0;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #section_agency_5 .second_link {
+    padding: 24px 0;
+  }
+  
+  #section_agency_5 .second_link .slow_fade{
+    padding: 16px 24px;
+    border: 2px solid #339900;
+    color: #339900;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #section_agency_5 .sixteen.columns > .rights_st {
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  
+  #section_agency_5 .rights_st {
+    color: #aaa;
+  }
+  
+  #section_agency_5 .sixteen.columns > .editContent .pix_text .pixfort_st {
+    color: #339900;
+  }
+  
+  #section_agency_5 .pix_inline_block {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }

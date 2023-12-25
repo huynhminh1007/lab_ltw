@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        img {
+            height: 100vh;
+        }
+
+    </style>
+</head>
+<body>
+    <img id="rotating-image" src="imgs/img.jpg" alt="Hình ảnh">
+    
+    <script>
+        const rotatingImage = document.getElementById("rotating-image");
+        let rotation = 0;
+
+        function rotateImage() {
+            rotation += 15;
+            rotatingImage.style.transform = `rotate(${rotation}deg)`;
+        }
+
+        setInterval(rotateImage, 2000);
+    </script>
+</body>
+</html>

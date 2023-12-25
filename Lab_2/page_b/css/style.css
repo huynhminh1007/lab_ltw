@@ -1,0 +1,80 @@
+:root{
+    --color_1: rgba(107, 121, 122, 1);
+}
+*{margin: 0; padding: 0; font-family: 'open sans',sans-serif; }
+.logo img, .btn {
+  
+    
+}
+.bg  {
+    background-color: rgba(243, 243, 243, 1) ;
+}
+.container {
+    width: 70%;
+}
+.carousel-inner {
+    position: relative;
+    border-radius: 10px;
+}
+
+.carousel-inner::after {
+   content: ' ';
+   position: absolute;
+   background-image: -webkit-linear-gradient(bottom, black 0%, #08080800 50%, #0000008f 100%);
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+ 
+}
+.carousel-inner h4 {
+    position: absolute;
+    bottom: 10%;
+    left: 20px;
+    color: white;
+    z-index: 2;
+}
+.carousel-inner p {
+    position: absolute;
+    bottom: 2%;
+    left: 20px;
+    color: white;      
+    z-index: 2;
+}
+.section {
+    margin-top: 30px;
+    
+}
+.card {
+    color: var(--color_1);
+}
+.co {
+    position: relative;
+    background-color: rgba(25, 25, 25, 1);
+    height: 400px;
+}
+.container-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    background-color: rgba(21, 21, 21, 1);
+}
+.container-form .form-signin {
+    padding: 50px 15px 30px 15px;
+    color: var(--color_1);
+}
+.r{ 
+    color: var(--color_1);
+}
+
+
+
+
+
+
+@media (min-width:769px) and (max-width:992px) {
+    
+}
